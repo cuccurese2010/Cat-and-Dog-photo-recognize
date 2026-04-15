@@ -1,6 +1,5 @@
-The training archive contains 25,000 images of dogs and cats. Train your algorithm on these files and predict the labels
-(1 = dog, 0 = cat).
+The training dataset contains 25,000 images of dogs and cats. Train your model on these files to predict the labels (1 for dog, 0 for cat).
 
-The file Cat_vs_dogs_classification.h5 has been zipped and compressed into 4 files Cat_vs_dogs_classification.7z. This file needs to be unpacked and contains the previously conducted training to train AI in recognizing photos. The file should be placed in the main folder of Google Drive and works for the Colab project Cat_and_Dog_Trained.ipynb.
+The model file Cat_vs_dogs_classification.h5 has been compressed and split into 4 parts (Cat_vs_dogs_classification.7z.001, etc.). Once unpacked, this file provides the pre-trained weights for the AI. Please place it in the root folder of your Google Drive to use it with the Cat_and_Dog_Trained.ipynb Colab notebook.
 
-The "history" file contains the previously conducted training and is used to display graphs in the Cat_and_Dog_Trained.ipynb project. This file should be placed in the main folder of Google Drive.
+The history file contains the training logs required to display the performance graphs in the project. This file should also be placed in the root folder of your Google Drive.
